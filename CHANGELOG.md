@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.3](https://github.com/a2aproject/a2a-python/compare/v1.2.2...v1.2.3) (2026-10-06)
+
+
+### Bug Fixes
+
+* **client:** normalize malformed agent card parsing errors ([#1307](https://github.com/a2aproject/a2a-python/issues/1307)) ([486f0f6](https://github.com/a2aproject/a2a-python/commit/486f0f65b753077f401f2428490e26ca0eedc092))
+* **jcs:** count open containers for the nesting bound, so an empty container leaf is refused ([#1294](https://github.com/a2aproject/a2a-python/issues/1294)) ([5653daf](https://github.com/a2aproject/a2a-python/commit/5653daf8315ab58c8dacc53be720c4ed632ee7ce))
+* **server:** run follow-up messages in the sender's contextvars ([#1317](https://github.com/a2aproject/a2a-python/issues/1317)) ([a016002](https://github.com/a2aproject/a2a-python/commit/a0160025d6d211b0be1762cb829e7a47c147191a))
+* **telemetry:** let trace_function alone decide a span's status ([#1309](https://github.com/a2aproject/a2a-python/issues/1309)) ([59dcbfb](https://github.com/a2aproject/a2a-python/commit/59dcbfb16f73c7c596e6d60cb700ed71193c5cce))
+
 ## [1.2.2](https://github.com/a2aproject/a2a-python/compare/v1.2.1...v1.2.2) (2026-10-03)
 
 
